@@ -10,9 +10,10 @@ public class Exercise4_11 {
 		
 		for (int i = 0 ; i < 8 ; i++ ) {
 			num3 = num1 + num2;
+			System.out.print(","+num3);
+			
 			num1 = num2;
 			num2 = num3;
-			System.out.print(","+num2);
 		}
 	}  // end of main
 } // end of class

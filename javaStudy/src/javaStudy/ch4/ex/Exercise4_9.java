@@ -6,8 +6,7 @@ public class Exercise4_9 {
 		int sum = 0;
 		
 		for(int i=0; i < str.length(); i++) {
-			char ch = str.charAt(i);
-			sum += ch - '0';
+			sum += str.charAt(i) - '0';
 		}
 		
 		System.out.println("sum="+sum);

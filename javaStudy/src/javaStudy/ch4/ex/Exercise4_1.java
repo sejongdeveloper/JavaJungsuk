@@ -15,7 +15,7 @@ public class Exercise4_1 {
 		if(('a'<=ch && ch<='z') || ('A'<=ch && ch<='Z')) {}
 		
 		int year = 2020;
-		if((year%400==0) || (year%4==0 && year%100 != 0)) {}
+		if((year%400==0) || (year%4==0 && year%100!=0)) {}
 		
 		boolean powerOn = false;
 		if(powerOn == false) {}

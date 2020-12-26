@@ -5,11 +5,7 @@ public class Exercise4_10 {
 		int num = 12345;
 		int sum = 0;
 		
-		while(true) {
-			if(num == 0) {
-				break;
-			}
-			
+		while(num > 0) {
 			sum += num%10;
 			num /= 10;
 		}
