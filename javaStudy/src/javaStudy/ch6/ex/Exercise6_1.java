@@ -5,16 +5,12 @@ public class Exercise6_1 {
 }
 
 class SutdaCard {
-	int num = (int) (Math.random()*10)+1;
+	int num;
 	boolean isKwang;
 	
-	{
-		if(num == 8) {
-			isKwang = true;
-		}
+	public SutdaCard() {
+		this(1, true);	
 	}
-	
-	public SutdaCard() {}
 	
 	public SutdaCard(int num, boolean isKwang) {
 		this.num = num;
@@ -22,6 +18,6 @@ class SutdaCard {
 	}
 	
 	public String info() {
-		return num == 8 ? "1K" : String.valueOf(num);
+		return num + (isKwang ? "K" : "");
 	}
 }
