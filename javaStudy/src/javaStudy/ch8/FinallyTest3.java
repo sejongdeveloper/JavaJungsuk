@@ -1,4 +1,4 @@
-package javaStudy.ch7;
+package javaStudy.ch8;
 
 public class FinallyTest3 {
 	public static void main(String[] args) {

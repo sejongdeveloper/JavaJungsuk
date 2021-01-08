@@ -1,4 +1,4 @@
-package javaStudy.ch7;
+package javaStudy.ch8;
 
 public class ExceptionEx1 {
 	public static void main(String[] args) {

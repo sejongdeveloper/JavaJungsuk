@@ -1,4 +1,4 @@
-package javaStudy.ch7;
+package javaStudy.ch8;
 
 import java.io.File;
 
