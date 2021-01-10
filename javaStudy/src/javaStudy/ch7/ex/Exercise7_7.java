@@ -30,7 +30,7 @@ class Child extends Parent {
 
 public class Exercise7_7 {
 	public static void main(String[] args) {
-		Child c = new Child(); // Child() Child(int x) Parent() Parent(int x)
+		Child c = new Child(); // Child() Child(int x) Parent() Parent(int x) Object()
 		
 		System.out.println("x="+c.getX()); // 200
 	}

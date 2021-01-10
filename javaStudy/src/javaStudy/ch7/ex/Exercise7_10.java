@@ -54,9 +54,7 @@ class MyTv2 {
 	}
 	
 	public void gotoPrevChannel() {
-		int tmp = channel;
-		channel = prevChannel;
-		prevChannel = tmp;
+		setChannel(prevChannel);
 	}
 }
 
