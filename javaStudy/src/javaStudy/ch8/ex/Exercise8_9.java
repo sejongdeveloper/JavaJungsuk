@@ -18,7 +18,7 @@ class UnsupportedFuctionException extends RuntimeException {
 	
 	@Override
 	public String getMessage() {
-		return "["+ERR_CODE+"]"+super.getMessage();
+		return "["+getErrorCode()+"]"+super.getMessage();
 	}
 }
 
